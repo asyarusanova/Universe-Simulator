@@ -1,0 +1,28 @@
+/Users/asyarusanova/Desktop/git/project/src/ParticleDecay.hs:
+  hash: eb0d48bf2d86cf676cea3f6133201069c203657a5324d00d0404579d4203b12d
+  size: 2455
+  modtime: 1581268461
+/Users/asyarusanova/Desktop/git/project/src/Simulator.hs:
+  hash: a631e8e4b766b8207334e255d6c9dec4c0efb736be4b699f87c6bbb242be8199
+  size: 1737
+  modtime: 1581269287
+/Users/asyarusanova/Desktop/git/project/project.cabal:
+  hash: e90aae1851645c234c636c120e8eb3e71c9b34dbff1354f66245acc8daddfad9
+  size: 1541
+  modtime: 1581267218
+/Users/asyarusanova/Desktop/git/project/package.yaml:
+  hash: 26d1848583a87a12c35e47b9bc7659c679f11b6b7b94838dc507950662b12535
+  size: 1118
+  modtime: 1581267206
+/Users/asyarusanova/Desktop/git/project/src/Particle.hs:
+  hash: bc46d4076ac81a19547a5c957b5f963d9eef63e3fb1a46601da7ba43f11df5db
+  size: 2934
+  modtime: 1581268289
+? /Users/asyarusanova/.stack/snapshots/x86_64-osx/11bda5e67a2c931b7a096fb2aafcf26b08c1ed5e592cfb451c971dab9bdcf3ba/8.6.5/lib/x86_64-osx-ghc-8.6.5/hlint-source-plugin-0.1.0.0-7iFl1dXoa9WIYXW7QIFTeR/libHShlint-source-plugin-0.1.0.0-7iFl1dXoa9WIYXW7QIFTeR.a
+: hash: 1a9ae03c7cd037aaa581bb85d1422f3175118997b66a9502900ed0d9ab317257
+  size: 14816
+  modtime: 1578424969
+/Users/asyarusanova/Desktop/git/project/.hlint.yaml:
+  hash: 91b173824e9d00ecf6713b29d9881efafb3a068d434f16643b9131c989d58efa
+  size: 171
+  modtime: 1581266873

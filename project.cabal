@@ -1,0 +1,53 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 623a49de4f82523574eebde620cc55810018e1de54c1f8cb9cf37ec30a8c5afc
+
+name:           project
+version:        0.0.0
+homepage:       https://github.com/asyarusanova/UniverseSimulator#readme
+bug-reports:    https://github.com/asyarusanova/UniverseSimulator/issues
+author:         Asya Rusanova
+maintainer:     asyarusanova97@gmail.com
+copyright:      2019/2020 Asya Rusanova
+license:        BSD3
+build-type:     Simple
+extra-source-files:
+    .hlint.yaml
+
+source-repository head
+  type: git
+  location: https://github.com/asyarusanova/UniverseSimulator
+
+library
+  exposed-modules:
+      Particle
+      ParticleDecay
+      Simulator
+  other-modules:
+      Paths_project
+  hs-source-dirs:
+      src
+  ghc-options: -Werror -Wincomplete-patterns -Wunused-binds -Wunused-matches -Wmissing-signatures -Wname-shadowing -Wincomplete-uni-patterns -fplugin=HLint
+  build-depends:
+      base >=4.7 && <5
+    , hlint-source-plugin
+    , random
+  default-language: Haskell2010
+
+executable my-ultra-cool-project
+  main-is: Main.hs
+  other-modules:
+      Paths_project
+  hs-source-dirs:
+      app
+  ghc-options: -Werror -Wincomplete-patterns -Wunused-binds -Wunused-matches -Wmissing-signatures -Wname-shadowing -Wincomplete-uni-patterns -fplugin=HLint -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , hlint-source-plugin
+    , project
+    , random
+  default-language: Haskell2010
